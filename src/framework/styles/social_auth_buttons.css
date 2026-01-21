@@ -1,0 +1,59 @@
+.social-auth-container {
+  margin: 2rem 0;
+}
+
+.divider {
+  text-align: center;
+  margin: 1.5rem 0;
+  position: relative;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.divider::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: #e0e0e0;
+  z-index: -1;
+}
+
+.divider span {
+  background: white;
+  padding: 0 1rem;
+}
+
+.social-buttons-row {
+  --ion-grid-column-padding: 0.5rem;
+}
+
+.social-button {
+  --border-radius: 8px;
+  --border-width: 1px;
+  --border-color: #e0e0e0;
+  --background: white;
+  --color: #333;
+  height: 50px;
+}
+
+.social-button-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+
+.google-button:hover {
+  --background: #f8f9fa;
+}
+
+.facebook-button:hover {
+  --background: #f8f9fa;
+}
+
+.windows-button:hover {
+  --background: #f8f9fa;
+}
